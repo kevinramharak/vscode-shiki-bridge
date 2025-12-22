@@ -3,7 +3,7 @@ import { ExtensionFileReader, getVscode } from "./vscode-utils.js";
 import { LanguageRegistry } from "./language-registry.js";
 import type { LanguageRegistrationExtended } from "./language-registration-types.js";
 
-interface LanguagesResult {
+export interface LanguagesResult {
   /**
    * The language registrations to pass to Shiki's highlighter.
    */
