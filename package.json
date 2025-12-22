@@ -47,12 +47,12 @@
   },
   "devDependencies": {
     "@types/node": "^22.15.17",
-    "@typescript-eslint/eslint-plugin": "^8.39.0",
-    "@typescript-eslint/parser": "^8.39.0",
-    "bumpp": "^10.1.0",
-    "eslint": "^9.32.0",
-    "tsdown": "^0.11.9",
-    "typescript": "^5.8.3",
+    "@typescript-eslint/eslint-plugin": "^8.50.0",
+    "@typescript-eslint/parser": "^8.50.0",
+    "bumpp": "^10.3.2",
+    "eslint": "^9.39.2",
+    "tsdown": "^0.11.13",
+    "typescript": "^5.9.3",
     "vscode-extension-manifest": "^0.5.0"
   },
   "peerDependencies": {
