@@ -1,12 +1,13 @@
 import type { LanguageRegistration } from "shiki";
 import type { IRawGrammar } from "shiki/textmate";
 import type { LanguageConfiguration } from "vscode";
-import type { ExtensionGrammer as ExtensionGrammar, ExtensionLanguage } from "vscode-extension-manifest";
+import type { ExtensionGrammer as ExtensionGrammar } from "vscode-extension-manifest";
 
 import type { LanguageRegistry } from "./language-registry.js";
 import type { ExtensionFileReader } from "./vscode-utils.js";
 import { logger } from './logger.js';
 import type { LanguageConfigurationFoldingMarkers, LanguageConfigurationFull, LanguageRegistrationExtended, LanguageRegistrationMeta } from "./language-registration-types.js";
+import type { ExtensionLanguage } from "./vscode-extension-manifest-types.js";
 
 function hasConfiguration(language: ExtensionLanguage): language is ExtensionLanguage & { configuration: string } {
   return !!language.configuration;
